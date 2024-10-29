@@ -1,0 +1,50 @@
+
+/* Agrega animaciones y estilos personalizados */
+  .card {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px var(--background-color);
+  }
+  
+  .btn-primary {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cambia el color al pasar el ratón */
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    transition: transform 0.3s ease;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card:hover .card-img-top {
+    transform: scale(1.1); /* Efecto de zoom en la imagen */
+  }
+
+.form-control {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  width: 160px;
+  margin: 0;
+  margin-top: 10px;
+  
+}
+
+.text-filter {
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+}
